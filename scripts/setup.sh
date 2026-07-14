@@ -10,6 +10,7 @@ sudo dpkg -i qqwing.deb && rm qqwing.deb
 
 # Obtain SukakuExplainer and create launcher into home user's directory .local/bin
 curl -LO https://github.com/SudokuMonster/SukakuExplainer/releases/download/v1.18.1/SukakuExplainer.jar
+mkdir -p $HOME/.local/bin # Ensure if not exists yet.
 cat << 'EOF' > $HOME/.local/bin/serate
 SE_BINARY="/tmp/SukakuExplainer.jar"
 java -cp "$SE_BINARY" diuf.sudoku.test.serate $@

@@ -2,7 +2,7 @@
 set -e
 
 # Define how much we need puzzles.
-TOTAL_GENERATION=50
+TOTAL_GENERATION=500
 
 # Command options:
 # QQwing:

@@ -3,7 +3,7 @@ set -e
 PATH="$PATH:$HOME/.local/bin" # Ensure if .local/bin is not inside PATH.
 
 # Define how much we need puzzles.
-TOTAL_GENERATION=50000
+TOTAL_GENERATION=5000
 
 # Command options:
 # QQwing:

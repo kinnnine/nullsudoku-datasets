@@ -24,6 +24,8 @@ jobs:
 
       - name: Push generated puzzles
         run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           DATE=$(date "+%B %Y")
           git add .
           git commit -m "puzzles: $DATE"

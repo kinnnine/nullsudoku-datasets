@@ -7,4 +7,4 @@ Like [SudokuExchange.com's Puzzle Bank](https://github.com/grantm/sudoku-exchang
 This datasets is not following [SudokuExchange.com's Puzzle Bank](https://github.com/grantm/sudoku-exchange-puzzle-bank) difficulty naming and rating.
 
 # License
-Datasets and scripts is under [Public Domain](LICENSE.txt).
+Datasets and scripts are under [Public Domain](LICENSE.txt).
